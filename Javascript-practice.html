@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Beginner Tutorial</title>
+</head>
+<body>
+
+  <p id="demo"></p>
+  <h1 id="allmonth"></h1>
+  <h2 id="currentmonth"></h2>
+
+    <script>
+
+   /*var firstname, lastname, number;
+    firstname = " My Free Trail Account ";
+    lastname  = " Payments Solutions "
+    number = 554
+    document.write(" ICG Innovation " + firstname + "<br>" + lastname + "<br>" + number);
+
+
+    //String Value
+    var str = "<h1>Welocme to the Dev Zone<h1>";
+    document.write("<br><br>");
+    document.write(str);
+    document.write("<br><br>");
+    document.write(typeof str);
+
+    //Nuber Value
+    var a = 25;
+    document.write("<br><br>");
+    document.write(a);
+    document.write("<br><br>");
+    document.write(typeof a);
+
+    //Boolian Value
+    var boolan = true;
+    document.write("<br><br>");
+    document.write(boolan);
+    document.write("<br><br>");
+    document.write(typeof boolan);
+
+    //Array Value
+    var x = ["apple", "mango", "Orange"];
+    document.write("<br><br>");
+    document.write(x);
+    document.write("<br><br>");
+    document.write(typeof x);
+
+    //Data Type Object
+    var obj = {
+      websitename:"Welocme to the Dev Zone",
+      title:"ICG"
+    };
+    document.write("<br><br>");
+    document.write(obj);
+    document.write("<br><br>");
+    document.write(typeof obj);
+    document.write("<br><br>");
+
+
+    var person = {
+      firstName: "John",
+      lastName: "Doe"
+    };
+
+    // alert(person.firstName + " " + person.lastName);
+
+    document.write(person.firstName + " " + person.lastName);
+
+
+    //Airthmatic Operator
+    // var a = 5;
+    //  b = 5;
+    //  c = a + b;
+    //  //Dcreement Operator
+    //  c--
+    //  //Increement Operator
+    //  //c++
+    //  document.write(c);
+
+
+      //Assignment Operator
+           var a = 5;
+             b = 5;
+             a += b;
+        document.write(a);
+
+     //Compression Operator
+     //check Value equal or not by this ===
+       var a = 5;
+       var b = 6;
+       console.log(a==b);
+
+       var a = 5;
+       var b = "5";
+       console.log(a==b);
+
+       //check data type by this ===
+        var a = 5;
+       var b = "5";
+       console.log(a===b);
+
+        var a = 5;
+        var b = "5";
+       console.log(a !== b);
+
+        var x = 5;
+       document.getElementById("demo").innerHTML = (x != 4);
+    
+      
+      //Logical Operator
+
+        var age = 18;
+        if (age >= 18 && age <= 50) {
+            document.write("AND Operator");
+        }
+
+        var x = 18;
+            y = 15;
+        if (x == 18 || y == 50) {
+            document.write("OR Operator");
+        }
+        var x = 18;
+            y = 15;
+        if (!x == 18) {
+            document.write("NOT Operator");
+        }
+
+
+       //Conditional Operator
+
+       var x = 5;
+           y = 5
+
+        if (x == y) {
+            document.write("Siddhath");
+        } else {
+             document.write("<h1 style='font-size:100px;'> Neeraj <h1>"); 
+        }
+
+       var age = 49;
+
+        if (age >= 18 && age <= 50) {
+            document.write("Siddhath");
+        } else {
+             document.write("<h1 style='font-size:100px;'> Neeraj <h1>"); 
+        }
+
+        var age = 18;
+
+        if (age > 18 && age < 50) {
+            document.write("Siddhath");
+        } else {
+             document.write("<h1 style='font-size:100px;'> Neeraj <h1>"); 
+        }
+
+
+        var age = 18;
+
+        if (age != 18) {
+            document.write("Siddhath");
+        } else {
+             document.write("<h1 style='font-size:100px;'> Neeraj <h1>"); 
+        }
+
+
+        // Multiple Conditions (if statement)
+
+        var num = 41;
+
+        if (num >= 10 && num <= 19) {
+            document.write("Siddharth");
+        } else if (num >= 20 && num <= 40) {
+            document.write("Neeraj");
+        } else {
+            document.write("Not Found");
+        }
+
+      */
+
+        //Ternary Operator means - Ternary Operator is write if and else Conditions in short 
+
+        /* Example : -
+        variablename=(Condition)?
+        value1:value2 
+        */
+
+        /*
+        // Using by if and else condition     
+                 var age = 17;
+                 var drive;
+                if (age >= 18) {
+                    drive ="Yes Drive"
+                }
+                else{
+                    drive = "No Drive"
+                };
+            document.write(drive + "<br>");
+
+
+        //Using short process by ternary operator process
+             var age = 18;
+                 var drive = age >= 18 ? 'Yes Drive' : 'No Drive';
+               
+            document.write(drive + "<br> <br>");
+
+        */
+
+        //Switch Case is work as if and else conditions. But write different way
+
+          /* Example : -
+          switch(expression){
+          case condition 1:statements
+          break;
+          case condition 2:statements
+          break;
+          case condition 3:statements
+          break;
+          default:statements
+          }
+
+         */ 
+
+           /*  //Display Month
+
+             var month = 15;
+             switch(month){
+             case(1):document.write('January')
+             break;
+             case(2):document.write('February')
+             break;
+             case(3):document.write('March')
+             break;
+             case(4):document.write('April')
+             break;
+             case(5):document.write('May')
+             break;
+             case(6):document.write('June')
+             break;
+             case(7):document.write('July')
+             break;
+             case(8):document.write('August')
+             break;
+             case(9):document.write('September')
+             break;
+             case(10):document.write('October')
+             break;
+             case(11):document.write('November')
+             break;
+             case(12):document.write('December')
+             break;
+             default:document.getElementById("allmonth").innerHTML = 'Please Enter Valid Month';
+         }
+
+          
+         // Get Current month by date object and Display month by daynamic
+
+           var date = new Date();
+          var month = date.getMonth() + 1; // Adding 1 because getMonth() returns a zero-based index.
+
+          switch (month) {
+            case 1:
+                document.write('January');
+                break;
+            case 2:
+                document.write('February');
+                break;
+            case 3:
+                document.write('March');
+                break;
+            case 4:
+                document.write('April');
+                break;
+            case 5:
+                document.write('May');
+                break;
+            case 6:
+                document.write('June');
+                break;
+            case 7:
+                document.write('July');
+                break;
+            case 8:
+                document.write('August');
+                break;
+            case 9:
+                document.write('September');
+                break;
+            case 10:
+                document.write('October');
+                break;
+            case 11:
+                document.write('November');
+                break;
+            case 12:
+                document.write('December');
+                break;
+            default:
+                document.getElementById("demo").innerHTML = 'Please Enter Valid Month';
+        }
+        */
+         
+        // Start Alert Box
+        // Show Aler box in if condition
+
+        /* var a = 10;
+            b = 20;
+           // a +=b;
+           // b +=a;
+            if (a > b){
+                alert(" Greater Than " + a);
+            }
+            else{
+                alert(" Not Greater Than " + b);
+            }
+        
+         // Ask the user for confirmation
+          var a = confirm("Do you like this website");
+            
+            if (a){
+                alert("Thanks to like this website");
+            }
+            else{
+                alert("It is Ok.");
+            }
+
+
+            // Ask the user for confirmation
+            var redirectc = confirm("Are you 18 or older?");
+
+            // Check if the user clicked "OK" (Yes)
+            if (redirectc) {
+                // Redirect to the desired URL
+                window.location.href = "https://www.w3schools.com/js/js_math.asp";
+            } else {
+                // Handle the case where the user is not 18 or older
+                alert("You are not old enough to access this page.");
+            }
+            
+           // Prompt Box
+
+            var a = prompt('Enter Your Name');
+            document.write(a);
+         */
+          
+
+ </script>
+
+</body>
+</html>
